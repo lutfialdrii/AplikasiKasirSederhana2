@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nama"
+        android:inputType="text"
+        android:autofillHints="name" />
+    <TextView
+        android:id="@+id/tvTipePelanggan"
+        android:layout_below="@id/etNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TipePelanggan"/>
+    <RadioGroup
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rgTipePelanggan"
+        android:layout_below="@id/tvTipePelanggan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbGold"
+            android:text="@string/Gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rbSilver"
+            android:text="@string/Silver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rbBiasa"
+            android:text="@string/Biasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/etKodeBarang"
+        android:layout_below="@id/rgTipePelanggan"
+        android:hint="@string/KodeBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:autofillHints="name" />
+    <EditText
+        android:layout_below="@id/etKodeBarang"
+        android:id="@+id/etJumlahBarang"
+        android:hint="@string/JumlahBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:autofillHints="name" />
+
+    <Button
+        android:id="@+id/btbProses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etJumlahBarang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/Proses"
+        android:onClick="clickProses"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Nama">Nama</string>
+    <string name="TipePelanggan">Tipe Pelanggan</string>
+    <string name="Gold">Gold</string>
+    <string name="Silver">Silver</string>
+    <string name="Biasa">Biasa</string>
+    <string name="KodeBarang">Kode Barang</string>
+    <string name="JumlahBarang">Jumlah Barang</string>
+    <string name="Proses">Proses</string>
+    <string name="selamat">Selamat Datang Nama</string>
+    <string name="TipeMember">Tipe Member : Member</string>
+    <string name="transaksi">Transaksi Hari Ini</string>
+    <string name="KodeBarangView">Kode Barang : TEST</string>
+    <string name="NamaBarangView">Nama Barang : TEST</string>
+    <string name="Harga">Harga : Rp.</string>
+    <string name="TotalHargaView">Total Harga : Rp.</string>
+    <string name="DiscView">Discount Harga : Rp.</string>
+    <string name="DiscMemberView">Discount Member : Rp.</string>
+    <string name="JumlahBayarView">Jumlah Bayar : Rp.</string>
+    <string name="Penutup">Terimakasih Telah berbelanja disini!</string>
+    <string name="printNota">Print Nota</string>
+</resources>
