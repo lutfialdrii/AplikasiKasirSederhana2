@@ -68,6 +68,4 @@
         android:text="@string/Proses"
         android:onClick="clickProses"/>
 
-
-
 </RelativeLayout>
